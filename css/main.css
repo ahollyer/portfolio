@@ -1,22 +1,25 @@
 body {
-	padding-top: 150px; /*Add space so fixed navbar doesn't overlap*/
+	padding: 150px 0 0 0; /*Add space so fixed navbar doesn't overlap*/
 	overflow-x: hidden; /*Prevent sideways scroll on narrow screens*/
-	background-color: #ccc;
 }
 
+.technologies-list {
+	font-size: 50px;
+}
+
+
 /*Customize navbar*/
-.navbar-fixed-top {
-	height: 50px;
+
+.navbar {
+	margin-bottom: 0 !important;
 }
-.icon-bar {
-	color: #fff;
-}
+
 .navbar-brand {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .navbar-container {
-    padding: 10px 0 10px 0;
+    padding: 20px 0 20px 0;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -26,7 +29,7 @@ body {
 }
 
 .navbar-brand.fixed-theme {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar-container.fixed-theme {
