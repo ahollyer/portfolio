@@ -1,6 +1,49 @@
-.row {
-	padding-top: 100px;
+body {
+	padding-top: 150px; /*Add space so fixed navbar doesn't overlap*/
+	overflow-x: hidden; /*Prevent sideways scroll on narrow screens*/
+	background-color: #ccc;
 }
+
+/*Customize navbar*/
+.navbar-fixed-top {
+	height: 50px;
+}
+.icon-bar {
+	color: #fff;
+}
+.navbar-brand {
+    font-size: 18px;
+}
+
+.navbar-container {
+    padding: 10px 0 10px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #555;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 14px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
 
 /*Hover effect adapted from Mike Young's Image Hover Effects*/
 
