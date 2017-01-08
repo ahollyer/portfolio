@@ -3,12 +3,7 @@ $(document).ready(function () {
 	$('[data-toggle="popover"]').popover();
 
 
-/**
- * This object controls the nav bar. Implement the add and remove
- * action over the elements of the nav bar that we want to change.
- *
- * @type {{flagAdd: boolean, elements: string[], add: Function, remove: Function}}
- */
+/*Fixed navbar behavior, adapted from */
 var myNavBar = {
 
     flagAdd: true,
@@ -37,21 +32,15 @@ var myNavBar = {
     }
 
 };
-
-/**
- * Init the object. Pass the object the array of elements
- * that we want to change when the scroll goes down
- */
+/*Init the object. Pass the object the array of elements
+ *that we want to change when the scroll goes down*/
 myNavBar.init(  [
     "header",
     "header-container",
     "brand-name"
 ]);
 
-/**
- * Function that manage the direction
- * of the scroll
- */
+/*Function that manages direction of scroll*/
 function offSetManager(){
 
     var yOffset = 0;
@@ -65,18 +54,11 @@ function offSetManager(){
     }
 
 }
-
-/**
- * bind to the document scroll detection
- */
+/*Bind to the document scroll detection*/
 window.onscroll = function(e) {
     offSetManager();
 }
-
-/**
- * We have to do a first detectation of offset because the page
- * could be load with scroll down set.
- */
+/*First detection of offset because the page could be loaded with scroll down set.*/
 offSetManager();
 
 });
