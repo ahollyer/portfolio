@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel='stylesheet' type='text/css' href='css/main.css'>
+	<title>Aspen Hollyer's Portfolio</title>
+</head>
+<body>
+
+	<nav class='navbar navbar-default navbar-fixed-top'>
+		<div class='container-fluid'>
+			<div class='navbar-header'>
+
+			<!--Pancake menu for mobile display-->
+				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar-links' aria-expanded='false'>
+					<span class='sr-only'>Toggle Navigation</span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+
+				<a class='navbar navbar-brand' href='index.html'>Aspen Hollyer</a>
+			</div>
+
+			<div class='navbar-right collapse navbar-collapse' id='navbar-links'>
+				<ul class='nav navbar-nav'>
+					<li class='active'><a href='#'>About <span class='sr-only'>(current)</span></a></li>
+					<li><a href='#'>Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<div class='container'>
+
+		<div class='row'>
+			<div class='col-sm-7'>
+				<h1>Hi there. I'm Aspen,</h1>
+				<p>an English teacher and soon-to-be full-stack developer. I started coding to create games to engage my students. I keep coding because it's my passion!</p>
+				<p>As an educator, I have several years' experience with
+				<a href='#' data-toggle='popover' data-trigger='hover' data-placement='top' title='Content Delivery' data-content="I don't teach English; I teach students. All content should be developed with the user in mind. I know how to use instructional design, gamification, and other tools to make content accessible and fun for a wide audience.">content delivery</a>, 
+				<a href='#' data-toggle='popover' data-trigger='hover' data-placement='bottom' title='User Engagement' data-content="I don't like to brag, but I've been known to achieve 100% engagement in a room of 32 restless, hungry, sometimes-hostile teenagers.">user engagement strategies</a>, and 
+				<a href='#' data-toggle='popover' data-trigger='hover' data-placement='bottom' title='Project Management' data-content="All teaching begins with a blank calendar. From the weeks-long scope and sequence to the minute-by-minute planning of daily activities, I have the expertise to manage time wisely, break huge tasks into meaningful segments, and seamlessly adapt to unexpected changes.">project management</a>.</p>
+			</div>
+			<div class='col-sm-4 col-sm-offset-1'>
+				<img src='img/profile-pic.jpeg' class='img-responsive img-rounded'>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-xs-12'>
+				<h2>Portfolio</h2>
+				<p>There is so much free information about programming. I'm learning a ton! Here's what I've been building lately:</p>
+			</div>
+			<div class='col-sm-6 col-md-4'>
+				<div class='thumbnail hovereffect'>
+					<img class='img-responsive' src='img/sketchpad-app.png' alt='Screenshot of Sketchpad Application'>
+					<div class='overlay'>
+						<h2>Sketch Pad</h2>
+						<a class='info' href='https://ahollyer.github.io/sketchpad/' target='blank'>Visit</a>
+						<a class='info' href='img/sketchpad-app.png' target='blank'>View Screenshot</a>
+					</div>
+				</div>
+				<div class='caption'>
+					<p>Sketch Pad, an app written in jQuery. My take on The Odin Project's Etch-a-Sketch assignment</p>
+				</div>			
+			</div>
+			<div class='col-sm-6 col-md-4'>
+				<div class='thumbnail hovereffect'>
+					<img class='img-responsive' src='img/pinky-punky-game.png' alt='Screenshot of Platformer Game'>
+					<div class='overlay'>
+						<h2>Pinky-Punky</h2>
+						<a class='info' href='https://ahollyer.github.io/pinky-punky/' target='blank'>Visit</a>
+						<a class='info' href='img/pinky-punky-game.png' target='blank'>View Screenshot</a>
+					</div>
+				</div>
+				<div class='caption'>
+					<p>Prototype for a simple 2D platformer. Built using Construct2.</p>
+				</div>
+			</div>
+			<div class='col-sm-6 col-md-4'>
+				<div class='thumbnail hovereffect'>
+					<img class='img-responsive' src='img/tribute-page.png' alt='Screenshot of Tribute to my Grandma'>
+					<div class='overlay'>
+						<h2>Tribute Page</h2>
+						<a class='info' href='https://ahollyer.github.io/tribute-pages/' target='blank'>Visit</a>
+						<a class='info' href='img/tribute-page.png' target='blank'>View Screenshot</a>
+					</div>
+				</div>
+				<div class='caption'>
+					<p>My grandma rocks. Inspired by the freeCodeCamp Tribute Page project.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-xs-12'>
+				<h2>Contact</h2>
+			</div>
+			<div class='col-xs-10 col-xs-offset-1'>
+				<ul class='list-unstyled'>
+					<li>Github</li>
+					<li>freeCodeCamp</li>
+					<li>Linkedin</li>
+					<li>Twitter</li>
+					<li>e-mail</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type='text/javascript'>
+		$(document).ready(function () {
+  $('[data-toggle="popover"]').popover();
+	});
+	</script>
+</body>
+</html>
