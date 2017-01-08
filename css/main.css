@@ -1,6 +1,25 @@
 body {
 	padding: 150px 0 0 0; /*Add space so fixed navbar doesn't overlap*/
 	overflow-x: hidden; /*Prevent sideways scroll on narrow screens*/
+	background-color: #f5f5f5;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #444;
+}
+.portfolio {
+	background-color: #2a2a2a;
+	color: #ccc;
+}
+.caption {
+	padding-bottom: 50px;
+}
+h1, h2 {
+	font-family: 'Arima Madurai', serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+h2 {
+	text-transform: uppercase;
 }
 
 /*Devicons size*/
@@ -8,38 +27,47 @@ body {
 	font-size: 35px;
 }
 
+/*Space between sections*/
 .row {
+	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
-/*Customize navbar*/
+/*Customize links*/
+a {
+	color: #5cb85c;
+}
+a:hover {
+	color: #f57722;
+	text-decoration: none;
+}
+#contacts li {
+	display: inline-block;
+	padding: 2px 10px;
+}
 
+/*Customize navbar*/
 .navbar {
 	margin-bottom: 0 !important;
 }
-
 .navbar-brand {
+	font-family: 'Arima Madurai', serif;
     font-size: 24px;
 }
-
 .navbar-container {
     padding: 20px 0 20px 0;
 }
-
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: #555;
     border-color: #080808;
     box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
-
 .navbar-brand.fixed-theme {
     font-size: 16px;
 }
-
 .navbar-container.fixed-theme {
     padding: 0;
 }
-
 .navbar-brand.fixed-theme,
 .navbar-container.fixed-theme,
 .navbar.navbar-fixed-top.fixed-theme,
@@ -52,8 +80,7 @@ body {
 }
 
 
-/*Hover effect adapted from Mike Young's Image Hover Effects*/
-
+/*Image hover effect adapted from Mike Young's Image Hover Effects*/
 .hovereffect {
 width:100%;
 height:100%;
@@ -103,7 +130,7 @@ padding:10px;
 text-decoration:none;
 display:inline-block;
 text-transform:uppercase;
-color:#fff;
+color:#5cb85c;
 border:1px solid #fff;
 background-color:transparent;
 opacity:0;
