@@ -35,10 +35,10 @@ h2 {
 
 /*Customize links*/
 a {
-	color: #5cb85c;
+	color: #5cb85c !important;
 }
 a:hover {
-	color: #f57722;
+	color: #f57722 !important;
 	text-decoration: none;
 }
 #contacts li {
@@ -49,6 +49,7 @@ a:hover {
 /*Customize navbar*/
 .navbar {
 	margin-bottom: 0 !important;
+	border: 0;
 }
 .navbar-brand {
 	font-family: 'Arima Madurai', serif;
