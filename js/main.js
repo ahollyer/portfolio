@@ -3,7 +3,7 @@ $(document).ready(function () {
 	$('[data-toggle="popover"]').popover();
 
 
-/*Fixed navbar behavior, adapted from */
+/*Fixed navbar behavior, adapted from cesiztel at Bootsnipp*/
 var myNavBar = {
 
     flagAdd: true,
