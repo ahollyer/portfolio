@@ -1,5 +1,5 @@
 # Personal Portfolio - Aspen Hollyer
-### My submission to the Personal Portfolio project at [Free Code Camp](https://freecodecamp.com)
+
 ---
 ### You can view this web page at https://ahollyer.github.io/portfolio/
 ---
